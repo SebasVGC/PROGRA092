@@ -46,6 +46,7 @@ Partial Class Form1
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
         Me.btnFecha1 = New System.Windows.Forms.Button()
         Me.btnFecha2 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -70,7 +71,7 @@ Partial Class Form1
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(96, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'Button1
@@ -255,11 +256,21 @@ Partial Class Form1
         Me.btnFecha2.Text = "Fecha 2"
         Me.btnFecha2.UseVisualStyleBackColor = True
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(199, 375)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 23)
+        Me.Button7.TabIndex = 21
+        Me.Button7.Text = "Aux"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(712, 450)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.btnFecha2)
         Me.Controls.Add(Me.btnFecha1)
         Me.Controls.Add(Me.MonthCalendar1)
@@ -316,4 +327,5 @@ Partial Class Form1
     Friend WithEvents MonthCalendar1 As MonthCalendar
     Friend WithEvents btnFecha1 As Button
     Friend WithEvents btnFecha2 As Button
+    Friend WithEvents Button7 As Button
 End Class

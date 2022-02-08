@@ -59,4 +59,30 @@
         fecha2b = fecha2a.AddDays(10)
         MsgBox(fecha2b)
     End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim a1 As String = “Hola”
+        Dim a2 As Byte = 10
+        Dim a3 As Boolean = True
+        Dim a4 As String = “Hola” + “ mundo”
+        Dim a5 As String = 10.ToString
+        Dim a6 As String = “Hola” + ”!”
+        Dim a7 As Boolean = True And False
+        Dim a8 As String = "TextBox1.Text"
+        Dim a9 As Single = 2.5
+        Dim a10 As String = a1 + a6
+        Dim a11 As String = “Piplo”
+        Dim a12 As Boolean = True Or a7
+        Dim a13 As Byte = “7”
+        Dim a14 As String = “ es un wen amigo”
+        Dim a15 As Integer = Convert.ToInt32(a13) * 10
+        'Dim a16 As Date = MonthCalendar1.SelectionStart
+        Dim a17 As String = a11 + a5 + a14
+        Dim a18 As Boolean = True Or (False And True)
+        Dim a19 As String = a18.ToString + ” falso”
+        Dim a20 As Date = DateValue(Now)
+
+        MsgBox(a17)
+
+    End Sub
 End Class
