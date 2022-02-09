@@ -22,5 +22,15 @@ Clase02
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Clase02.My.Resources.Resources.a01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Clase02.My.Resources.Resources.Usac_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
