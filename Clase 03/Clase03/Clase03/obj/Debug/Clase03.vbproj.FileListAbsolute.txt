@@ -1,0 +1,13 @@
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\bin\Debug\Clase03.exe.config
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\bin\Debug\Clase03.exe
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\bin\Debug\Clase03.pdb
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\bin\Debug\Clase03.xml
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.vbproj.SuggestedBindingRedirects.cache
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.Resources.resources
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.vbproj.GenerateResource.cache
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.vbproj.CoreCompileInputs.cache
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.exe
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.xml
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.pdb
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.Form1.resources
+D:\Proyectos Visual Studio\Windows Form App NET\Clase03\Clase03\obj\Debug\Clase03.vbproj.AssemblyReference.cache
