@@ -21,6 +21,13 @@
     End Sub
 
     Private Sub btnOp1_Click(sender As Object, e As EventArgs) Handles btnOp1.Click
+        
+        'Opción 1: Ingresar dos numeros (a y b)
+        'Si a > b: calcular la cantidad de números pares entre ellos
+        'Si b < a: calcular la cantidad de números impares entre ellos
+        'Si a = b: Mensaje indicando que son iguales
+        'Mostrar listado de numeros
+
         Dim a As Integer = Int32.Parse(txtNumA1.Text)
         Dim b As Integer = Int32.Parse(txtNumB1.Text)
 
@@ -61,6 +68,11 @@
     End Sub
 
     Private Sub btnOp2_Click(sender As Object, e As EventArgs) Handles btnOp2.Click
+        'Opción 2: Ingresar dos numeros (a y b)
+        'Mostrar listado de numeros enter a y b
+        'Pedir el numero que se salte (instruccion Continue)
+        'Pedir el numero para detenerse (instruccion exit)
+
         Dim a As Integer = Int32.Parse(txtA2.Text)
         Dim b As Integer = Int32.Parse(txtB2.Text)
         Dim textResultado As String = ""
@@ -91,6 +103,8 @@
     End Sub
 
     Private Sub btnCalcularNotas_Click(sender As Object, e As EventArgs) Handles btnCalcularNotas.Click
+        'Las intrucciones estan en el archivo Tarea Cancelada
+
         Dim textoNota1 As String = txtNota1.Text
         Dim textoNota2 As String = txtNota2.Text
         Dim textoNota3 As String = txtNota3.Text
