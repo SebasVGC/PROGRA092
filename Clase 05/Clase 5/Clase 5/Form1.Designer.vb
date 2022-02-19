@@ -50,10 +50,34 @@ Partial Class Form1
         Me.txtSalir = New System.Windows.Forms.TextBox()
         Me.txtRes2 = New System.Windows.Forms.TextBox()
         Me.lbResultadoOp2 = New System.Windows.Forms.Label()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.txtNota1 = New System.Windows.Forms.TextBox()
+        Me.txtNota2 = New System.Windows.Forms.TextBox()
+        Me.txtNota3 = New System.Windows.Forms.TextBox()
+        Me.txtNota4 = New System.Windows.Forms.TextBox()
+        Me.txtNota5 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
+        Me.lbAR1 = New System.Windows.Forms.Label()
+        Me.lbAR2 = New System.Windows.Forms.Label()
+        Me.lbAR3 = New System.Windows.Forms.Label()
+        Me.lbAR4 = New System.Windows.Forms.Label()
+        Me.lbAR5 = New System.Windows.Forms.Label()
+        Me.btnCalcularNotas = New System.Windows.Forms.Button()
+        Me.lbPromedio = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -105,10 +129,11 @@ Partial Class Form1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Location = New System.Drawing.Point(19, 79)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(757, 249)
+        Me.TabControl1.Size = New System.Drawing.Size(757, 359)
         Me.TabControl1.TabIndex = 2
         '
         'TabPage1
@@ -308,6 +333,226 @@ Partial Class Form1
         Me.lbResultadoOp2.TabIndex = 10
         Me.lbResultadoOp2.Text = "Resultado"
         '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.lbPromedio)
+        Me.TabPage3.Controls.Add(Me.btnCalcularNotas)
+        Me.TabPage3.Controls.Add(Me.lbAR5)
+        Me.TabPage3.Controls.Add(Me.lbAR4)
+        Me.TabPage3.Controls.Add(Me.lbAR3)
+        Me.TabPage3.Controls.Add(Me.lbAR2)
+        Me.TabPage3.Controls.Add(Me.lbAR1)
+        Me.TabPage3.Controls.Add(Me.CheckBox5)
+        Me.TabPage3.Controls.Add(Me.CheckBox4)
+        Me.TabPage3.Controls.Add(Me.CheckBox3)
+        Me.TabPage3.Controls.Add(Me.CheckBox2)
+        Me.TabPage3.Controls.Add(Me.CheckBox1)
+        Me.TabPage3.Controls.Add(Me.Label12)
+        Me.TabPage3.Controls.Add(Me.Label11)
+        Me.TabPage3.Controls.Add(Me.Label10)
+        Me.TabPage3.Controls.Add(Me.Label9)
+        Me.TabPage3.Controls.Add(Me.Label8)
+        Me.TabPage3.Controls.Add(Me.txtNota5)
+        Me.TabPage3.Controls.Add(Me.txtNota4)
+        Me.TabPage3.Controls.Add(Me.txtNota3)
+        Me.TabPage3.Controls.Add(Me.txtNota2)
+        Me.TabPage3.Controls.Add(Me.txtNota1)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(749, 333)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "TabPage3"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'txtNota1
+        '
+        Me.txtNota1.Location = New System.Drawing.Point(123, 22)
+        Me.txtNota1.Name = "txtNota1"
+        Me.txtNota1.Size = New System.Drawing.Size(100, 20)
+        Me.txtNota1.TabIndex = 0
+        '
+        'txtNota2
+        '
+        Me.txtNota2.Location = New System.Drawing.Point(123, 58)
+        Me.txtNota2.Name = "txtNota2"
+        Me.txtNota2.Size = New System.Drawing.Size(100, 20)
+        Me.txtNota2.TabIndex = 1
+        '
+        'txtNota3
+        '
+        Me.txtNota3.Location = New System.Drawing.Point(123, 98)
+        Me.txtNota3.Name = "txtNota3"
+        Me.txtNota3.Size = New System.Drawing.Size(100, 20)
+        Me.txtNota3.TabIndex = 2
+        '
+        'txtNota4
+        '
+        Me.txtNota4.Location = New System.Drawing.Point(123, 143)
+        Me.txtNota4.Name = "txtNota4"
+        Me.txtNota4.Size = New System.Drawing.Size(100, 20)
+        Me.txtNota4.TabIndex = 3
+        '
+        'txtNota5
+        '
+        Me.txtNota5.Location = New System.Drawing.Point(123, 188)
+        Me.txtNota5.Name = "txtNota5"
+        Me.txtNota5.Size = New System.Drawing.Size(100, 20)
+        Me.txtNota5.TabIndex = 4
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(60, 22)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(31, 13)
+        Me.Label8.TabIndex = 5
+        Me.Label8.Text = "Mate"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(59, 61)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(45, 13)
+        Me.Label9.TabIndex = 6
+        Me.Label9.Text = "Quimica"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(59, 98)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(38, 13)
+        Me.Label10.TabIndex = 7
+        Me.Label10.Text = "Progra"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(57, 143)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(34, 13)
+        Me.Label11.TabIndex = 8
+        Me.Label11.Text = "Fisica"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(57, 188)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(45, 13)
+        Me.Label12.TabIndex = 9
+        Me.Label12.Text = "Social 1"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(16, 21)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox1.TabIndex = 10
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(16, 60)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox2.TabIndex = 11
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(16, 93)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox3.TabIndex = 12
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Location = New System.Drawing.Point(16, 138)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox4.TabIndex = 13
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
+        'CheckBox5
+        '
+        Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Location = New System.Drawing.Point(16, 183)
+        Me.CheckBox5.Name = "CheckBox5"
+        Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox5.TabIndex = 14
+        Me.CheckBox5.UseVisualStyleBackColor = True
+        '
+        'lbAR1
+        '
+        Me.lbAR1.AutoSize = True
+        Me.lbAR1.Location = New System.Drawing.Point(261, 28)
+        Me.lbAR1.Name = "lbAR1"
+        Me.lbAR1.Size = New System.Drawing.Size(27, 13)
+        Me.lbAR1.TabIndex = 15
+        Me.lbAR1.Text = "A/R"
+        '
+        'lbAR2
+        '
+        Me.lbAR2.AutoSize = True
+        Me.lbAR2.Location = New System.Drawing.Point(261, 65)
+        Me.lbAR2.Name = "lbAR2"
+        Me.lbAR2.Size = New System.Drawing.Size(27, 13)
+        Me.lbAR2.TabIndex = 16
+        Me.lbAR2.Text = "A/R"
+        '
+        'lbAR3
+        '
+        Me.lbAR3.AutoSize = True
+        Me.lbAR3.Location = New System.Drawing.Point(261, 101)
+        Me.lbAR3.Name = "lbAR3"
+        Me.lbAR3.Size = New System.Drawing.Size(27, 13)
+        Me.lbAR3.TabIndex = 17
+        Me.lbAR3.Text = "A/R"
+        '
+        'lbAR4
+        '
+        Me.lbAR4.AutoSize = True
+        Me.lbAR4.Location = New System.Drawing.Point(261, 150)
+        Me.lbAR4.Name = "lbAR4"
+        Me.lbAR4.Size = New System.Drawing.Size(27, 13)
+        Me.lbAR4.TabIndex = 18
+        Me.lbAR4.Text = "A/R"
+        '
+        'lbAR5
+        '
+        Me.lbAR5.AutoSize = True
+        Me.lbAR5.Location = New System.Drawing.Point(261, 191)
+        Me.lbAR5.Name = "lbAR5"
+        Me.lbAR5.Size = New System.Drawing.Size(27, 13)
+        Me.lbAR5.TabIndex = 19
+        Me.lbAR5.Text = "A/R"
+        '
+        'btnCalcularNotas
+        '
+        Me.btnCalcularNotas.Location = New System.Drawing.Point(409, 83)
+        Me.btnCalcularNotas.Name = "btnCalcularNotas"
+        Me.btnCalcularNotas.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcularNotas.TabIndex = 20
+        Me.btnCalcularNotas.Text = "Calcular"
+        Me.btnCalcularNotas.UseVisualStyleBackColor = True
+        '
+        'lbPromedio
+        '
+        Me.lbPromedio.AutoSize = True
+        Me.lbPromedio.Location = New System.Drawing.Point(416, 146)
+        Me.lbPromedio.Name = "lbPromedio"
+        Me.lbPromedio.Size = New System.Drawing.Size(51, 13)
+        Me.lbPromedio.TabIndex = 21
+        Me.lbPromedio.Text = "Promedio"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -326,6 +571,8 @@ Partial Class Form1
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -359,4 +606,27 @@ Partial Class Form1
     Friend WithEvents txtB2 As TextBox
     Friend WithEvents txtA2 As TextBox
     Friend WithEvents lbResultadoOp2 As Label
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents lbPromedio As Label
+    Friend WithEvents btnCalcularNotas As Button
+    Friend WithEvents lbAR5 As Label
+    Friend WithEvents lbAR4 As Label
+    Friend WithEvents lbAR3 As Label
+    Friend WithEvents lbAR2 As Label
+    Friend WithEvents lbAR1 As Label
+    Friend WithEvents CheckBox5 As CheckBox
+    Friend WithEvents CheckBox4 As CheckBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents txtNota5 As TextBox
+    Friend WithEvents txtNota4 As TextBox
+    Friend WithEvents txtNota3 As TextBox
+    Friend WithEvents txtNota2 As TextBox
+    Friend WithEvents txtNota1 As TextBox
 End Class
