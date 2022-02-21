@@ -11,3 +11,16 @@ D:\Github\Ejemplo1\Clase 4\Clase 4\obj\Debug\Clase 4.vbproj.CoreCompileInputs.ca
 D:\Github\Ejemplo1\Clase 4\Clase 4\obj\Debug\Clase 4.exe
 D:\Github\Ejemplo1\Clase 4\Clase 4\obj\Debug\Clase 4.xml
 D:\Github\Ejemplo1\Clase 4\Clase 4\obj\Debug\Clase 4.pdb
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\bin\Debug\Clase 4.exe.config
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\bin\Debug\Clase 4.exe
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\bin\Debug\Clase 4.pdb
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\bin\Debug\Clase 4.xml
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.vbproj.AssemblyReference.cache
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.vbproj.SuggestedBindingRedirects.cache
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase_4.Form1.resources
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase_4.Resources.resources
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.vbproj.GenerateResource.cache
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.vbproj.CoreCompileInputs.cache
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.exe
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.xml
+D:\Github\PROGRA092\Clase 04\Clase 4\Clase 4\obj\Debug\Clase 4.pdb

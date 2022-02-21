@@ -93,12 +93,13 @@
 
     End Sub
 
+    'Este es el boton donde se efecuta la funcionalidad de varias operaciones
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Dim moneda As String
         Dim cantidadOp As Integer
         Dim texto As String
-        Dim total1 As Double = 0
-        Dim total2 As Double = 0
+        Dim total1 As Double = 0 'Este guarda el total de 1 sola operacion
+        Dim total2 As Double = 0 'Este guarda el total de todas las operaciones sumadas
 
         If (RadioButton1.Checked) Then
             moneda = "dolar"
@@ -113,30 +114,38 @@
             MsgBox("no se adminten textos vacios")
         Else
             cantidadOp = Int32.Parse(texto)
+
+            'Este siclo for vamos a repetirlo para la cantidad de operaciones
+            'Va a repetir desde 1 hasta el numero que ingresamos
             For index As Integer = 1 To cantidadOp
                 Dim dinero As String
                 dinero = InputBox("Ingrese monto", "Saludo", "", 2)
                 Dim dineroInt = Int32.Parse(dinero)
+
                 If (moneda = "dolar") Then
-                    total1 = 7.69 * dineroInt
+                    total1 = 7.69 * dineroInt 'Calculamos el total de la operacion actual
                     MsgBox(total1)
-                    total2 = total2 + total1
+                    total2 = total2 + total1 'Sumamos el resultado a total2
 
                 ElseIf (moneda = "peso") Then
-                    total1 = 0.38 * dineroInt
+                    total1 = 0.38 * dineroInt 'Calculamos el total de la operacion actual
                     MsgBox(total1)
-                    total2 = total2 + total1
+                    total2 = total2 + total1 'Sumamos el resultado a total2
 
                 ElseIf (moneda = "euro") Then
-                    total1 = 8.79 * dineroInt
+                    total1 = 8.79 * dineroInt 'Calculamos el total de la operacion actual
                     MsgBox(total1)
-                    total2 = total2 + total1
+                    total2 = total2 + total1 'Sumamos el resultado a total2
 
                 End If
             Next
         End If
 
         Label3.Text = total2.ToString
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 End Class
