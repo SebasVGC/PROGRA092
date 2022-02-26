@@ -84,4 +84,43 @@
 
         End Select
     End Sub
+
+    Private Sub btnAmenos_Click(sender As Object, e As EventArgs) Handles btnAmenos.Click
+        'Dim numeroEntrante As String = lbA.Text
+        'numeroEntrante = Restar(numeroEntrante)
+        'lbA.Text = numeroEntrante
+
+        lbA.Text = Restar(lbA.Text) 'Esta linea hace exactamente lo mismo de las 3 de arriba
+    End Sub
+
+    Private Sub btnAmas_Click(sender As Object, e As EventArgs) Handles btnAmas.Click
+        lbA.Text = Aumentar(lbA.Text)
+    End Sub
+
+    Private Sub btnBmenos_Click(sender As Object, e As EventArgs) Handles btnBmenos.Click
+        lbB.Text = Restar(lbB.Text)
+    End Sub
+
+    Private Sub btnBmas_Click(sender As Object, e As EventArgs) Handles btnBmas.Click
+        lbB.Text = Aumentar(lbB.Text)
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim txtA = lbA.Text
+        Dim numA = Int32.Parse(txtA)
+
+        Dim txtB = lbB.Text
+        Dim numB = Int32.Parse(txtB)
+
+        Dim resultadoSuma = Suma(numA, numB)
+        'MsgBox(resultadoSuma)
+        lbResultado.Text = "El resultado de A + B es " + resultadoSuma.ToString()
+    End Sub
+
+    Function Suma(numA As Integer, numB As Integer) As Integer
+        Dim resultado As Integer
+        resultado = numA + numB
+        Return resultado
+    End Function
+
 End Class
