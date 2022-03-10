@@ -1,0 +1,16 @@
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\bin\Debug\EjemploProyecto.exe.config
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\bin\Debug\EjemploProyecto.exe
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\bin\Debug\EjemploProyecto.pdb
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\bin\Debug\EjemploProyecto.xml
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.vbproj.AssemblyReference.cache
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.vbproj.SuggestedBindingRedirects.cache
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.Form1.resources
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormInicio.resources
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormPassword.resources
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormRegistro.resources
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.Resources.resources
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.vbproj.GenerateResource.cache
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.vbproj.CoreCompileInputs.cache
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.exe
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.xml
+D:\Proyectos Visual Studio\Windows Form App NET\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.pdb
