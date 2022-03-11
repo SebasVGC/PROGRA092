@@ -42,6 +42,7 @@ Partial Class Form1
         '
         'btnLogin
         '
+        Me.btnLogin.Enabled = False
         Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.Location = New System.Drawing.Point(56, 259)
         Me.btnLogin.Name = "btnLogin"
@@ -52,6 +53,7 @@ Partial Class Form1
         '
         'btnRegister
         '
+        Me.btnRegister.Enabled = False
         Me.btnRegister.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.Location = New System.Drawing.Point(278, 259)
         Me.btnRegister.Name = "btnRegister"
@@ -75,7 +77,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label2.Location = New System.Drawing.Point(177, 329)
+        Me.Label2.Location = New System.Drawing.Point(193, 345)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(128, 31)
         Me.Label2.TabIndex = 4
