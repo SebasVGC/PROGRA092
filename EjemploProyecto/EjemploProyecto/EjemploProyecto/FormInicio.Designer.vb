@@ -22,22 +22,22 @@ Partial Class FormInicio
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbNombre = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'lbNombre
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(30, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(301, 37)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Nombre del cliente"
+        Me.lbNombre.AutoSize = True
+        Me.lbNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbNombre.Location = New System.Drawing.Point(12, 9)
+        Me.lbNombre.Name = "lbNombre"
+        Me.lbNombre.Size = New System.Drawing.Size(239, 31)
+        Me.lbNombre.TabIndex = 0
+        Me.lbNombre.Text = "Nombre del cliente"
         '
         'Button1
         '
@@ -89,7 +89,7 @@ Partial Class FormInicio
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lbNombre)
         Me.Name = "FormInicio"
         Me.Text = "FormInicio"
         Me.ResumeLayout(False)
@@ -97,7 +97,7 @@ Partial Class FormInicio
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lbNombre As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button

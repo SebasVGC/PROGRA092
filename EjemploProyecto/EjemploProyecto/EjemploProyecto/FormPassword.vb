@@ -5,6 +5,7 @@
         'abcd12334
         If (passEncriptada = usr_password) Then
             MsgBox("Login exitoso")
+            FormInicio.lbNombre.Text = usr_nombre
             FormInicio.Visible = True
             Me.Visible = False
         Else
