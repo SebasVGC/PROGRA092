@@ -33,3 +33,6 @@ D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\Ej
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.MenuAdmin.resources
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormCrearPlaylist.resources
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormMisPlaylist.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormArtistas.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormCanciones.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormDeleteUser.resources

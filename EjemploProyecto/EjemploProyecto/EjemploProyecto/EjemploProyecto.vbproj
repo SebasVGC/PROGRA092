@@ -80,10 +80,28 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormArtistas.Designer.vb">
+      <DependentUpon>FormArtistas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormArtistas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCanciones.Designer.vb">
+      <DependentUpon>FormCanciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCanciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormCrearPlaylist.Designer.vb">
       <DependentUpon>FormCrearPlaylist.vb</DependentUpon>
     </Compile>
     <Compile Include="FormCrearPlaylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteUser.Designer.vb">
+      <DependentUpon>FormDeleteUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeleteUser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormInicio.Designer.vb">
@@ -137,8 +155,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormArtistas.resx">
+      <DependentUpon>FormArtistas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCanciones.resx">
+      <DependentUpon>FormCanciones.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCrearPlaylist.resx">
       <DependentUpon>FormCrearPlaylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteUser.resx">
+      <DependentUpon>FormDeleteUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInicio.resx">
       <DependentUpon>FormInicio.vb</DependentUpon>
