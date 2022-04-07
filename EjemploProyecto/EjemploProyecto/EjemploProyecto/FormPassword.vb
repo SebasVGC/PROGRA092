@@ -5,9 +5,15 @@
         'abcd12334
         If (passEncriptada = usr_password) Then
             MsgBox("Login exitoso")
-            FormInicio.lbNombre.Text = usr_nombre
-            FormInicio.Visible = True
-            Me.Visible = False
+            If (usr_tipo = "Administrador") Then
+                MenuAdmin.Visible = True
+                Me.Visible = False
+            Else
+                FormInicio.lbNombre.Text = usr_nombre
+                FormInicio.Visible = True
+                Me.Visible = False
+            End If
+
         Else
             MsgBox("Contrasena incorrecta")
         End If

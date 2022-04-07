@@ -57,7 +57,7 @@ Partial Class FormInicio
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(168, 34)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Opcion 1"
+        Me.Button2.Text = "Mis Playlist"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -67,7 +67,7 @@ Partial Class FormInicio
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(168, 34)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Opcion 2"
+        Me.Button3.Text = "Crear Playlist"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -77,7 +77,7 @@ Partial Class FormInicio
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(168, 34)
         Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Opcion 3"
+        Me.Button4.Text = "Editar usuario"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'FormInicio

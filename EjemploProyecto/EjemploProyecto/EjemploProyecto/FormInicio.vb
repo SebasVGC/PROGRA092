@@ -11,4 +11,14 @@
         Form1.Visible = True
         Me.Visible = False
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        FormMisPlaylist.Visible = True
+        Me.Visible = False
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        FormCrearPlaylist.Visible = True
+        Me.Visible = False
+    End Sub
 End Class

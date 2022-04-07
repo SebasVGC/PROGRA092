@@ -30,3 +30,6 @@ D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\Ej
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.exe
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.xml
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.pdb
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.MenuAdmin.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormCrearPlaylist.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormMisPlaylist.resources
