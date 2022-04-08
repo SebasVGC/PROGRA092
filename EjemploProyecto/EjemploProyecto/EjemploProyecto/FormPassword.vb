@@ -2,9 +2,8 @@
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Dim passwordIngresada = txtPass.Text
         Dim passEncriptada = Encriptar(passwordIngresada)
-        'abcd12334
         If (passEncriptada = usr_password) Then
-            MsgBox("Login exitoso")
+            'MsgBox("Login exitoso")
             If (usr_tipo = "Administrador") Then
                 MenuAdmin.Visible = True
                 Me.Visible = False

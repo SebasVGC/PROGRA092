@@ -36,3 +36,8 @@ D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\Ej
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormArtistas.resources
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormCanciones.resources
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormDeleteUser.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\bin\Debug\Interop.WMPLib.dll
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\bin\Debug\AxInterop.WMPLib.dll
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\Interop.WMPLib.dll
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\AxInterop.WMPLib.dll
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.vbproj.ResolveComReference.cache

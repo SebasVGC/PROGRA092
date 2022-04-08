@@ -35,7 +35,7 @@ Public Class Form1
             conexion.Close()
 
         Catch ex As Exception
-
+            MsgBox("Error al buscar usuario")
         End Try
 
         'FormPassword.Visible = True
