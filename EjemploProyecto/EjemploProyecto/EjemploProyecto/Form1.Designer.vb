@@ -42,7 +42,6 @@ Partial Class Form1
         '
         'btnLogin
         '
-        Me.btnLogin.Enabled = False
         Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.Location = New System.Drawing.Point(56, 259)
         Me.btnLogin.Name = "btnLogin"
@@ -53,7 +52,6 @@ Partial Class Form1
         '
         'btnRegister
         '
-        Me.btnRegister.Enabled = False
         Me.btnRegister.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.Location = New System.Drawing.Point(278, 259)
         Me.btnRegister.Name = "btnRegister"

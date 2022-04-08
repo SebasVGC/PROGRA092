@@ -27,10 +27,10 @@ Partial Class FormArtistas
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.txtNacion = New System.Windows.Forms.TextBox()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -83,19 +83,19 @@ Partial Class FormArtistas
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Nacionalidad"
         '
-        'TextBox1
+        'txtNombre
         '
-        Me.TextBox1.Location = New System.Drawing.Point(136, 123)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(255, 20)
-        Me.TextBox1.TabIndex = 5
+        Me.txtNombre.Location = New System.Drawing.Point(136, 123)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(255, 20)
+        Me.txtNombre.TabIndex = 5
         '
-        'TextBox2
+        'txtNacion
         '
-        Me.TextBox2.Location = New System.Drawing.Point(136, 161)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(255, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.txtNacion.Location = New System.Drawing.Point(136, 161)
+        Me.txtNacion.Name = "txtNacion"
+        Me.txtNacion.Size = New System.Drawing.Size(255, 20)
+        Me.txtNacion.TabIndex = 6
         '
         'ListBox1
         '
@@ -105,14 +105,14 @@ Partial Class FormArtistas
         Me.ListBox1.Size = New System.Drawing.Size(255, 95)
         Me.ListBox1.TabIndex = 7
         '
-        'Button3
+        'btnDelete
         '
-        Me.Button3.Location = New System.Drawing.Point(218, 385)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Eliminar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnDelete.Location = New System.Drawing.Point(218, 385)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelete.TabIndex = 8
+        Me.btnDelete.Text = "Eliminar"
+        Me.btnDelete.UseVisualStyleBackColor = True
         '
         'Label4
         '
@@ -141,10 +141,10 @@ Partial Class FormArtistas
         Me.ClientSize = New System.Drawing.Size(488, 450)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtNacion)
+        Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -162,10 +162,10 @@ Partial Class FormArtistas
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents txtNacion As TextBox
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnDelete As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
 End Class
