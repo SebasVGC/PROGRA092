@@ -42,3 +42,4 @@ D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\In
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\AxInterop.WMPLib.dll
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.vbproj.ResolveComReference.cache
 D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.FormEditarUsr.resources
+D:\Github\PROGRA092\EjemploProyecto\EjemploProyecto\EjemploProyecto\obj\Debug\EjemploProyecto.Reportes.resources

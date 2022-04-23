@@ -63,5 +63,38 @@ Public Class FormEditarUsr
         Return resultado
     End Function
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        conexion.Open()
+        Try
+            Dim consulta As String = "
+                        DELETE FROM usuario 
+	                    WHERE username='" + usr_username + "';
+                        "
+            Dim comando As SqlCommand
+            comando = New SqlCommand(consulta, conexion)
+            comando.ExecuteNonQuery()
+            MessageBox.Show("Los datos se borraron correctamente")
 
+            'Reiniciar variables de sesion
+            usr_id = ""
+            usr_nombre = ""
+            usr_username = ""
+            usr_password = ""
+            usr_tipo = ""
+            usr_foto = ""
+
+            'Regresar al formulario de login
+            Form1.Show()
+            Me.Hide()
+
+
+        Catch ex As Exception
+            MsgBox("Error al borrar datos de la DB")
+        End Try
+        conexion.Close()
+
+
+
+
+    End Sub
 End Class

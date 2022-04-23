@@ -132,7 +132,7 @@ Partial Class FormMisPlaylist
         'reproductorMP3
         '
         Me.reproductorMP3.Enabled = True
-        Me.reproductorMP3.Location = New System.Drawing.Point(271, 317)
+        Me.reproductorMP3.Location = New System.Drawing.Point(271, 291)
         Me.reproductorMP3.Name = "reproductorMP3"
         Me.reproductorMP3.OcxState = CType(resources.GetObject("reproductorMP3.OcxState"), System.Windows.Forms.AxHost.State)
         Me.reproductorMP3.Size = New System.Drawing.Size(394, 61)

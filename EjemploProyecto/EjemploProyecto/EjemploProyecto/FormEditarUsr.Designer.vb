@@ -30,6 +30,7 @@ Partial Class FormEditarUsr
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -109,11 +110,21 @@ Partial Class FormEditarUsr
         Me.btnUpdate.Text = "Actualizar"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(417, 315)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(139, 23)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Eliminar cuenta"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'FormEditarUsr
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(568, 382)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
@@ -139,4 +150,5 @@ Partial Class FormEditarUsr
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents btnUpdate As Button
+    Friend WithEvents Button2 As Button
 End Class
