@@ -5,12 +5,27 @@ Public Class Reportes
     Dim adaptador As SqlDataAdapter
     Dim setDatos As DataSet
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim consulta1 As String = "SELECT * FROM usuario"
+        Dim consulta1 As String = "
+            SELECT a.nombre AS 'Nombre artista',COUNT(c.nombre) AS 'Cantidad canciones'
+            FROM cancion c
+            INNER JOIN artista a
+            ON c.artista_id=a.id
+            GROUP BY a.nombre
+            ORDER BY 'Nombre artista'
+            ;
+        "
         MostrarReporte(consulta1)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim consulta1 As String = "SELECT * FROM cancion"
+        Dim consulta1 As String = "
+        SELECT c.nombre AS 'Nombre cancion', COUNT(d.playlist_id) AS 'Cant. veces agregadas'
+        FROM detalle_playlist d
+        INNER JOIN cancion c
+        ON d.cancion_id=c.id
+        GROUP BY c.nombre
+        ;
+        "
         MostrarReporte(consulta1)
     End Sub
 
@@ -44,6 +59,21 @@ Public Class Reportes
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim consulta1 As String = "SELECT * FROM artista"
+        MostrarReporte(consulta1)
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim consulta1 As String = "
+            SELECT TOP 3 a.nombre AS 'Nombre artista', COUNT(c.nombre) AS 'Cant. canciones agregadas'
+            FROM detalle_playlist d
+            INNER JOIN cancion c
+            ON d.cancion_id=c.id
+            INNER JOIN artista a
+            ON c.artista_id=a.id
+            GROUP BY a.nombre
+            ORDER BY 'Cant. canciones agregadas' DESC
+            ;
+           "
         MostrarReporte(consulta1)
     End Sub
 End Class

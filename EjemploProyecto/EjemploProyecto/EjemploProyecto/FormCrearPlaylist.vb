@@ -151,5 +151,12 @@ Public Class FormCrearPlaylist
         Return resultadoID
     End Function
 
-
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Try
+            Dim cancionSeleccionada As String = listaCancion2.SelectedItem().ToString()
+            listaCancion2.Items.Remove(cancionSeleccionada)
+        Catch ex As Exception
+            MsgBox("Error al agregar cancion")
+        End Try
+    End Sub
 End Class

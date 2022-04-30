@@ -34,6 +34,8 @@ Partial Class FormMisPlaylist
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.reproductorMP3 = New AxWMPLib.AxWindowsMediaPlayer()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.reproductorMP3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -138,11 +140,31 @@ Partial Class FormMisPlaylist
         Me.reproductorMP3.Size = New System.Drawing.Size(394, 61)
         Me.reproductorMP3.TabIndex = 11
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(699, 321)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 12
+        Me.Button4.Text = "Pause"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(699, 283)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(75, 23)
+        Me.Button6.TabIndex = 13
+        Me.Button6.Text = "Play"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'FormMisPlaylist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.reproductorMP3)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button5)
@@ -174,4 +196,6 @@ Partial Class FormMisPlaylist
     Friend WithEvents Button5 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents reproductorMP3 As AxWMPLib.AxWindowsMediaPlayer
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button6 As Button
 End Class

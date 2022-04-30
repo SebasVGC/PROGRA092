@@ -38,7 +38,7 @@ Partial Class Reportes
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Reporte 1"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -47,7 +47,7 @@ Partial Class Reportes
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Reporte 2"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -56,7 +56,7 @@ Partial Class Reportes
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Reporte 3"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -65,7 +65,7 @@ Partial Class Reportes
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Reporte 4"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
@@ -74,7 +74,7 @@ Partial Class Reportes
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
+        Me.Button5.Text = "Reporte 5"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -83,7 +83,7 @@ Partial Class Reportes
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
+        Me.Button6.Text = "Reporte 6"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'DataGridView1
